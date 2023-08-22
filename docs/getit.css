@@ -27,9 +27,24 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.appbar{
+  display: flex;
+  height: fit-content;
+  background-color: #f7d736;
+  align-items: center;
+  padding: 0.2em;
+  margin-bottom: 5em;
+  box-shadow: 1px 2px 15px #4c4c4c;
+}
+
+.logo{
+  height: 55px;
+  padding: 0.3em 0.8em 0.3em 0.1em;
+}
+
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+ .btn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -77,4 +92,4 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+} 
