@@ -42,9 +42,109 @@ body {
   padding: 0.3em 0.8em 0.3em 0.1em;
 }
 
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-card{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.card{
+  font-family: 'Permanent Marker', cursive;
+  border-radius: 5px;
+  width: 12rem;
+  height: 7rem;
+  margin: 1rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); 
+}
+
+.card-title{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-content{
+  color: #4c4c4c;
+  font-size: 15px;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-color-1{
+  background: #ead3a7;
+}
+
+.card-color-2{
+  background: #9de0f5;
+}
+
+.card-color-3{
+  background: #ef89ba;
+}
+
+.card-color-4{
+  background: #fae890;
+}
+
+.card-color-5{
+  background: #abe9c1;
+}
+
+.card-rotation-1{
+  transform: rotate(1deg)
+}
+
+.card-rotation-2{
+  transform: rotate(2deg)
+}
+
+.card-rotation-3{
+  transform: rotate(3deg)
+}
+
+.card-rotation-4{
+  transform: rotate(4deg)
+}
+
+.card-rotation-5{
+  transform: rotate(5deg)
+}
+
+.card-rotation-6{
+  transform: rotate(-1deg)
+}
+
+.card-rotation-7{
+  transform: rotate(-2deg)
+}
+
+.card-rotation-8{
+  transform: rotate(-3deg)
+}
+
+.card-rotation-9{
+  transform: rotate(-4deg)
+}
+
+.card-rotation-10{
+  transform: rotate(-5deg)
+}
+
+
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
- .btn {
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
